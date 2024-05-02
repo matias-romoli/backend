@@ -16,10 +16,10 @@ export const createTable = async () => {
   }
 };
 const config = createPool({
-  host: process.env.HOST,
-  user: process.env.USER,
-  database: process.env.DATABASE,
-  password: process.env.PASSWORD,
+  host: "brxfwcnlvqrymwrxoprd-mysql.services.clever-cloud.com",
+  user: "ug76o7qet3wpi0w9",
+  database: "brxfwcnlvqrymwrxoprd",
+  password: "niz6s5rdwNxEvPDiTS23",
 });
 
 export default config;
